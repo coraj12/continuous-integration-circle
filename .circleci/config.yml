@@ -41,6 +41,7 @@ jobs:
 
       - run:
           name: run html proofer
+          command: .circleci/config.yml
           command: bundle exec htmlproofer ./_site --check-html
 
       - run:
